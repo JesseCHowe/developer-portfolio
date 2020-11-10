@@ -10,22 +10,22 @@ const About = () => {
         "Currently, I work as a contract information designer for many different journalism outlets across the United States. I’m consulted on design decisions around interactive graphics and visualizations along with building custom graphics in javascript and D3.js.",
     },
     {
-      title: "Freelance Information Designer",
-      active: "May 2015 - Present",
+      title: "Data Tech / mySidewalk",
+      active: "May 2019 - October 2019",
       desc:
-        "Currently, I work as a contract information designer for many different journalism outlets across the United States. I’m consulted on design decisions around interactive graphics and visualizations along with building custom graphics in javascript and D3.js.",
+        "I was tasked with working with the lead designer on documenting design systems related to the company’s dashboard products. This included research around the accessibility of chart types and appropriate use cases, along with color palettes and orientations based around user feedback and cognitive load concerns.",
     },
     {
-      title: "Freelance Information Designer",
-      active: "May 2015 - Present",
+      title: "Digital Marketing Associate / National Building Museum",
+      active: "December 2017 - May 2019",
       desc:
-        "Currently, I work as a contract information designer for many different journalism outlets across the United States. I’m consulted on design decisions around interactive graphics and visualizations along with building custom graphics in javascript and D3.js.",
+        "I collaborated with the museum’s curators to bring new digital experiences including video content for exhibitions. I was also tasked with managing the museum’s WordPress site and print calendar designs.",
     },
     {
-      title: "Freelance Information Designer",
-      active: "May 2015 - Present",
+      title: "Data Reporter / Kansas City Public Television",
+      active: "March 2016 - November 2017",
       desc:
-        "Currently, I work as a contract information designer for many different journalism outlets across the United States. I’m consulted on design decisions around interactive graphics and visualizations along with building custom graphics in javascript and D3.js.",
+        "I worked with journalists, food writers, and video producers to create charts and graphics for print, web, and television. This included launching the first interactive web projects for the company’s digital magazine Flatland.",
     },
   ];
   return (
@@ -54,15 +54,9 @@ const About = () => {
           {dummyData.map((d, i) => {
             return (
               <div key={`resume${i}`} className={styles.role}>
-                <h3>Freelance Information Designer</h3>
-                <span>May 2015 - Present</span>
-                <p>
-                  Currently, I work as a contract information designer for many
-                  different journalism outlets across the United States. I’m
-                  consulted on design decisions around interactive graphics and
-                  visualizations along with building custom graphics in
-                  javascript and D3.js.
-                </p>
+                <h3>{d.title}</h3>
+                <span>{d.active}</span>
+                <p>{d.desc}</p>
               </div>
             );
           })}
@@ -77,6 +71,30 @@ const About = () => {
               on disaster preparedness post-hurricane sandy. Trained in the use
               of GIS software and satellite imagery.
             </p>
+          </div>
+
+          <h2>SKILLS</h2>
+          <div className={styles.role}>
+            <h3>Design</h3>
+            <span>Illustration & UI graphics</span> &bull;{" "}
+            <span>Adobe Suite</span>
+          </div>
+          <div className={styles.role}>
+            <h3>PROGRAMMING</h3>
+            <span>HTML & CSS(SCSS)</span> &bull; <span>Javascript</span> &bull;{" "}
+            <span>React & React Native</span> &bull; <span>D3.js</span>
+          </div>
+          <div className={styles.role}>
+            <h3>PROGRAMMING</h3>
+            <span>Collabrotation</span> &bull; <span>Self-starter</span> &bull;{" "}
+            <span>Flexible</span> &bull;{" "}
+            <span>
+              Responsive to delegating, and being delegatedtasksofalargerproject
+            </span>{" "}
+            &bull;{" "}
+            <span>
+              Open to feedback and iteration from multiple stakeholders.
+            </span>
           </div>
         </div>
       </div>
