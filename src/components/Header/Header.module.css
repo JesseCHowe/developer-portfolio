@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 100;
+}
+
+.header h1,
+.header span {
+  margin: 0;
+  text-align: right;
+}
+
+.header span {
+  display: block;
+}
+
+.links > * {
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.links .isActive {
+  text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+  .header {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+  }
+  .links {
+    display: flex;
+    justify-content: center;
+  }
+  .links > * {
+    margin-right: 0;
+    padding: 0.5rem;
+  }
+}

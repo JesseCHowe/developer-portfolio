@@ -1,0 +1,51 @@
+.resumePage {
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.aboutMe {
+  max-width: 600px;
+}
+
+.jessehowe {
+  font-size: 4rem;
+}
+
+.resume {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+}
+
+.hl {
+  color: lightcoral;
+  font-weight: 500;
+}
+.resumePage a {
+  color: lightcoral;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.resumePage h3,
+.resumePage p {
+  margin: 0.3rem 0;
+}
+
+.resumePage h3 {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.role {
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 700px) {
+  .resumePage {
+    display: block;
+  }
+  .resume {
+    display: block;
+  }
+}
