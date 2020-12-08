@@ -89,7 +89,8 @@ const About = () => {
             <span>Collabrotation</span> &bull; <span>Self-starter</span> &bull;{" "}
             <span>Flexible</span> &bull;{" "}
             <span>
-              Responsive to delegating, and being delegatedtasksofalargerproject
+              Responsive to delegating, and being delegated tasks of a larger
+              project
             </span>{" "}
             &bull;{" "}
             <span>
